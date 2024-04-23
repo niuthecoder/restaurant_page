@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>restaurant Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background-color: orange;
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+
+        }
+        li {
+            display: inline;
+            margin: 0 20px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #761919;
+            font-size: 20px;
+
+        }
+
+        a:hover {
+            color: #429eef;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 0px 1px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        p {
+            font-size: 8px;
+            text-align: center;
+        }
+
+        nav ul {
+            float: right;
+            padding-right: 90px;
+        }
+
+        pre {
+            padding-top: 15%;
+
+        }
+
+        .container {
+            position:fixed;
+            position: absolute;
+            padding:0 1em;
+        }
+
+        h4 {
+            text-align: left;
+            margin-left: 19%;
+            margin-top: 140px;
+            font-size: 60px;
+            width: 60%;
+            
+        }
+
+        .tagline {
+            font-size: 25px;
+            margin-top: -50px;
+            margin-left: 19%;
+            line-height: 1.5;
+            color: #761919;
+        }
+
+        button {
+            font-size: 20px;
+            background-color: rgb(243, 38, 55);
+            color: white;
+            border-radius: 30px;
+            padding: 12px 23px;
+            cursor: pointer;
+            border: none;
+            border-radius: 24px;
+            margin-left: 290px;
+            margin-top: 40px;
+        
+            
+        }
+
+        .food-image {
+            position: absolute;
+            top: 160px;
+            right: 270px;
+            width: 30%;
+            height: 70vh;
+            background-image: url('goge_kabab.jpeg');
+            background-size: cover;
+            border-radius: 20px;
+            z-index: 0;
+            
+        }
+        .new-layer {
+            background-color: brown;
+            padding: 205px;
+            margin-top: 200px; 
+            width: 150%;
+            
+           
+        }
+        .new-layer button{
+                    font-size: 30px;
+                    background-color: rgb(243, 38, 55);
+                    color: white;
+                    padding: 16px 23px;
+                    cursor: pointer;
+                    border: none;
+                    border-radius: 35px;
+                    margin-left: 439px;
+                    margin-top: 450px;
+
+
+        }
+        .food-image2 {
+            position: absolute;
+            top: 170%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 400px;
+            height: 400px;
+            background-image: url('fesenjon.jpeg');
+            background-size: cover;
+            border-radius: 20px;
+            z-index: 0;
+        }
+        .new-layer p1{
+         position: absolute;
+         color: white;
+         font-size: 20px;
+         top: 900px;
+         left: 250px;
+       }
+       .new-layer p2{
+         position: absolute;
+         color: white;
+         font-size: 20px;
+         top: 900px;
+         right: 250px;
+       }
+        .new-layer p3{
+         position: absolute;
+         color: white;
+         font-size: 20px;
+         bottom: -780px;
+         right: 250px;
+       }
+       .new-layer p4{
+         position: absolute;
+         color: white;
+         font-size: 20px;
+         bottom: -780px;
+         left: 250px;
+       }
+    @media screen and (min-width: 800rem) {
+  .container {
+    margin: 1em 2em;
+  }
+}
+    
+
+   
+    </style>
+</head>
+
+<body>
+    <header >
+        Restaurant (logo)
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#tour">Home</a></li>
+            <li><a href="#music">Menu</a></li>
+            <li><a href="#video">About us</a></li>
+            <li><a href="#gallert">Gallery</a></li>
+            <li><a href="#merch">Contact</a></li>
+        </ul>
+    </nav>
+    
+        <h4><big>We invite you<br>
+                to our<br>
+                Restaurant</big></h4>
+        <div class="tagline">in our restaurant<br>you will find something for yourself</div>
+    </div>
+
+    <button>Order Online</button>
+
+    <div class="food-image"></div>
+    
+
+
+
+    <div class="new-layer", style="margin-left: 0px;
+                    margin-top: 250px;">
+        <div class="food-image2"></div>
+        <button>Order Online</button>
+        <p1><h3>Fancy drinks</h3></p1>
+        <p2><h3>Delicioes Coffe</h3></p2>
+        <p3><h3>Tasty food</h3></p3>
+        <p4><h3>Unique vibe</h3></p4>
+
+    </div>
+    <footer>
+        <p>&copy; 2024 Music Page. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
